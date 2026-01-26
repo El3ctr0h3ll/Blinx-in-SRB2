@@ -1,0 +1,8 @@
+-- diagonally speed up
+
+
+
+addHook("AbilitySpecial", function(player)
+	if player.mo.skin != "blinx" return end
+	-- make so moving  diagonally speeds up run speed
+end)

@@ -1,0 +1,9 @@
+Character
+SkinName = blinx
+DisplayName =blinx
+TagTextColor = SKINCOLOR_BLUE
+TagOutlineColor = SKINCOLOR_YELLOW
+OppositeColor = SKINCOLOR_SKY
+PlayerText = hi
+#
+
