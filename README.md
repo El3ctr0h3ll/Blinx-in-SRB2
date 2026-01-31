@@ -7,7 +7,11 @@ To-do / info list
 make the spin button for the sweeper
 
 add a slide/groundpound so blinx can do the routes that require to roll and so blinx complete Deep Sea Zone Act 2 (groundpound)
-
+### -- buttons set --
+- spin - Sweeper 
+- custom button 1 - Time Controls menu
+[use jump in the Time Controls menu and movement keys for selecting controls]
+- custom button 2 - melee
 ## -- Crystals --
 
 i think the idea is to replace rings with the Crystals, but you can only get RETRY crystal from enameys 
