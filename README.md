@@ -12,6 +12,8 @@ add a slide/groundpound so blinx can do the routes that require to roll and so b
 - custom button 1 - Time Controls menu
 [use jump in the Time Controls menu and movement keys for selecting controls]
 - custom button 2 - melee
+- custom button 3 - slide/groundpound
+
 ## -- Crystals --
 
 i think the idea is to replace rings with the Crystals, but you can only get RETRY crystal from enameys 
