@@ -1,8 +1,12 @@
 -- diagonally speed up
 
-
-
-addHook("AbilitySpecial", function(player)
-	if player.mo.skin != "blinx" return end
-	-- make so moving  diagonally speeds up run speed
+addHook("PlayerThink", function(p)
+	if p.mo.skin != "blinx" return end -- if the player skin is not blinx then end loop
+	if p.cmd.forwardmove >= 1 and p.cmd.sidemove >= 1 or p.cmd.forwardmove >= 1 and p.cmd.sidemove <= -1 then -- check if up and, left and, up and, right are pressed at the same time
+		p.normalspeed = 50*FRACUNIT -- change player normalspeed AKA runspeed to 50 FRACUNIT
+		print("speed")
+		else
+		p.normalspeed = 36*FRACUNIT -- change player normalspeed AKA runspeed to 36 FRACUNIT
+		print("not")
+	end
 end)
