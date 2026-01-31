@@ -2,8 +2,8 @@ name = blinx
 flags = SF_NOJUMPSPIN|SF_NOJUMPDAMAGE
 realname = Blinx
 hudname = BLINX
-startcolor = 96
-prefcolor = red
+startcolor = 86
+prefcolor = blue
 supercolor = Red
 ability = CA_DOUBLEJUMP
 ability2 = CA2_NONE
@@ -16,4 +16,5 @@ accelstart = 96
 acceleration = 40
 contspeed = 17
 contangle = 3
+
 jumpfactor = 1.135
