@@ -2,7 +2,7 @@
 
 addHook("PlayerThink", function(p)
 	if p.mo.skin != "blinx" return end -- if the player skin is not blinx then end loop
-	if p.cmd.forwardmove >= 1 and p.cmd.sidemove >= 1 or p.cmd.forwardmove >= 1 and p.cmd.sidemove <= -1 then -- check if up and, left and, up and, right are pressed at the same time
+	if p.cmd.forwardmove >= 1 and p.cmd.sidemove >= 1 or p.cmd.forwardmove >= 1 and p.cmd.sidemove <= -1 then -- check if up and, left. or, up and, right are pressed at the same time
 		p.normalspeed = 50*FRACUNIT -- change player normalspeed AKA runspeed to 50 FRACUNIT
 		print("speed")
 		else
@@ -10,3 +10,4 @@ addHook("PlayerThink", function(p)
 		print("not")
 	end
 end)
+
