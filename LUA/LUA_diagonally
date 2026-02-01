@@ -1,13 +1,14 @@
 -- diagonally speed up
 
-addHook("PlayerThink", function(p)
+addHook("PlayerThink", function(p) -- "Executes once per tic for the player as it runs after it's thinker." - srb2 wiki
 	if p.mo.skin != "blinx" return end -- if the player skin is not blinx then end loop
 	if p.cmd.forwardmove >= 1 and p.cmd.sidemove >= 1 or p.cmd.forwardmove >= 1 and p.cmd.sidemove <= -1 then -- check if up and, left. or, up and, right are pressed at the same time
 		p.normalspeed = 50*FRACUNIT -- change player normalspeed AKA runspeed to 50 FRACUNIT
-		print("speed")
+		print("diagonally speed")
 		else
 		p.normalspeed = 36*FRACUNIT -- change player normalspeed AKA runspeed to 36 FRACUNIT
-		print("not")
+		print("no diagonally speed")
 	end
 end)
+
 
