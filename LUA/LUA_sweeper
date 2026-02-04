@@ -1,1 +1,7 @@
 -- file is for sweeper picking up OBJs and shoting
+
+-- TO-DO for sweeper
+-- 1. make its so it shoots when the player taps the spin key and suck when hold
+-- 1.5. make Tables or someting to store the list of what OBJs can be sucked and how heavy it is and the damage
+-- 2. suck functionality, inventory (make sure its easy to change the size of other Sweeper upgrades)
+-- 3. cheak if the player's sweeper can suck heavyer OBJs  
