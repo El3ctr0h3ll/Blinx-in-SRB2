@@ -1,1 +1,7 @@
 -- file is for PAUSE
+
+-- TO-DO for PAUSE
+-- 1. Freeze all OBJs (you can prob just pase the state its on, but i am unsure on how to do that)
+-- 1.5. make all Players unaffected
+-- 2. i am unsure if you can stop moving platforms do to that there are Linedef types
+-- 3. tint it blue Monochrome
