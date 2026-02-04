@@ -1,6 +1,15 @@
 # Blinx-in-SRB2
 
-To-do / info list
+ ### list of priority from hight to low
+
+- sweeper picking up and shooting OBJs
+- Time Controls Hud and function to pick what one to use (in LUA_Time_Controls_HUD)
+- Crystals objs and function to replace rings
+- Crystals Combinations
+- REWIND Time Control (higher priority because RECORD rewinds after recording your inputs)
+- the other Time Controls
+
+## To-do / info list
 
 ## -- moveset --
 
