@@ -27,8 +27,8 @@ add a slide/groundpound so blinx can do the routes that require to roll and so b
 
 i think the idea is to replace rings with the Crystals, but you can only get RETRY crystal from enameys 
 
-MAYBE make it so you can change form the Blinx 1 Combinations stye Blinx 2 stye *but that for an update i say*
-
+the idea i have is the Blinx 2 stye Combinations is combined Blinx 1 Combinations stye  
+and there is an option it change it to how blinx 1 dose it
 -- Sprites --
 the Crystals should be the same or simiar size the the ring sprite
 
