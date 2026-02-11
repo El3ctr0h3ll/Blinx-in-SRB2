@@ -2,7 +2,7 @@
 
 -- TO-DO for sweeper
 -- 1. make its so it shoots when the player taps the spin key and suck when hold
--- 1.5. make Tables or someting to store the list of what OBJs can be sucked and how heavy it is and the damage
+-- 1.5. make someting to store the list of what OBJs can be sucked and how heavy it is and the damage
 -- 2. suck functionality, inventory (make sure its easy to change the size of other Sweeper upgrades)
 -- 3. cheak if the player's sweeper can suck heavyer OBJs  
 
@@ -15,7 +15,11 @@ addHook("PlayerThink", function(p) -- "Executes once per tic for the player as i
 	if (p.cmd.buttons & BT_SPIN) then 
 // print("tap")
 //	uuuuhhhhhh
-//print("hold")
-// sweeperstate == 1 -- set when sucking up OBJs
+print("hold")
+sweeperstate = 1 -- set when sucking up OBJs
+	if 	sweeperstate == 1 then
+	p.normalspeed = 14*FRACUNIT end-- 36 - 41%
+else
+sweeperstate = 0
 	end
 end, MT_PLAYER)
