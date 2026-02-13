@@ -1,0 +1,4 @@
+-- file is for someting to store the list of what OBJs can be sucked and how heavy it is and the damage
+--  i think it should go like [cant it be sucked up /how heavy/ what tpye of sweeper can suck up it] 
+-- and i think we can use MobjDamage for damgae
+-- aslo cheak if it is shoted so the player dose not get hit form the "sitting" objs
