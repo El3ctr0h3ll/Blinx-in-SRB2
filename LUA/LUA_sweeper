@@ -2,7 +2,7 @@
 
 -- TO-DO for sweeper
 -- 1. make its so it shoots when the player taps the spin key and suck when hold
--- 1.5. make someting to store the list of what OBJs can be sucked and how heavy it is and the damage
+-- ??. make someting to store the list of what OBJs can be sucked and how heavy it is and the damage
 -- 2. suck functionality, inventory (make sure its easy to change the size of other Sweeper upgrades)
 -- 3. cheak if the player's sweeper can suck heavyer OBJs  
 
@@ -13,8 +13,8 @@ addHook("PlayerThink", function(p) -- "Executes once per tic for the player as i
 	-- idea is that it tells if the player taped or is holding the spin key
 	-- in the blinx games it waits a litte bit befor acting on the thing the player wants to do but idk if i want to add that
 	if (p.cmd.buttons & BT_SPIN) then 
+	//	uuuuhhhhhh
 // print("tap")
-//	uuuuhhhhhh
 print("hold")
 sweeperstate = 1 -- set when sucking up OBJs
 	if 	sweeperstate == 1 then
@@ -23,3 +23,8 @@ else
 sweeperstate = 0
 	end
 end, MT_PLAYER)
+
+-- inventory
+
+-- i think the idea is to remove the OBJ and save what obj it was (probe with table.insert)
+-- then when shot cheak whet is the laasted one in the list a spaw it with P_SpawnMobjFromMobj
