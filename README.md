@@ -20,7 +20,7 @@ add a slide/groundpound so blinx can do the routes that require to roll and so b
 - spin - Sweeper 
 - custom button 1 - Time Controls menu
 [use jump in the Time Controls menu and movement keys for selecting controls]
-- custom button 2 - melee
+- MAYBE custom button 2 - melee
 - custom button 3 - slide/groundpound
 
 ## -- Crystals --
